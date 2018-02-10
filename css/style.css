@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Lato|Orbitron|Playfair+Display|Roboto');
+/* ALL */
+*{margin: 0;padding: 0;box-sizing: border-box;}
+h1{font-family: 'Orbitron', sans-serif;}
+p{font-family: 'Barlow Condensed', sans-serif;color: gray;}
+span{color: red;}
+.more{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 10px;
+	color: red;
+}
+/* HEADER */
+
+.header{
+	max-width: 1600px;
+	height: 660px;
+	background-image: url(../img/1156525-architecture-wallpaper.jpg);
+	background-size: cover;
+}
+.header_container{
+	max-width: 950px;
+	margin: 0 auto;
+	height: 660px;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	max-width: 400px;
+}
+.menu_item{
+	margin: 15px;
+	cursor: pointer;
+}
+.menu_item:hover ,.link:hover{color: white;transition: 0.3s;}
+.link{
+	color: black;
+}
+/* INTRO */
+
+.intro{
+	height: 300px;
+	max-width: 600px;
+	margin: 130px 0 0 10px;
+}
+.intro h1{
+	font-size: 35px;
+	margin: 10px 0 50px 10px;
+	letter-spacing: 0.3em;
+}
+.intro p{
+	font-size: 20px;
+	margin: 10px;
+}
+.intro button{
+	height: 80px;
+	width: 180px;
+	background-color: #1b841f;
+	border: none;
+	border-radius: 15px;
+	margin: 30px 10px 10px 10px;
+	font-size: 20px;
+	font-family: 'Maven Pro', sans-serif;
+	color: white;
+	cursor: pointer;
+}
+.intro button:hover{
+	transition: 0.5s;
+	background-color: #0e4711;
+}
+/* ABOUT ME */
+
+.about_me_container{
+	max-width: 950px;
+	margin: 0 auto;
+}
+.about_me{
+	margin: 30px auto;
+	height: 100px;
+	max-width: 450px;
+	opacity: 0;
+	transition: 1s;
+	padding: 20px;
+	
+}
+.about_me h1{
+	text-align: center;
+	margin: 20px;
+}
+.hobby_container{
+	display: flex;
+	opacity: 0;
+	transition: 1s;
+}
+.hobby_container h1{margin: 30px;text-align: center;}
+.hobby{
+	margin: 30px;
+}
+.hobby p{
+	margin: 10px;
+	font-size: 14px;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+	display: flex;
+	opacity: 0;
+	transition: 1s;
+}
+.portfolio img{
+	height: 400px;
+	margin: 30px;
+	border-radius: 10px;
+}
+.portfolio h1{margin: 10px 0 10px 0;}
+.portfolio p{margin: 30px 0}
+.portfolio h2{color: grey;font-size: 23px;}
+.about_portfolio{
+	margin: 10px;
+}
+
+/* OUR_TEAM */
+
+.our_team{
+	border-bottom: 1px solid grey;
+	opacity: 0;
+	transition: 1s;
+}
+.our_team_intro{
+	margin: 30px auto;
+	width: 220px;
+	text-align: center;
+}
+.our_team img{
+	height: 130px;
+	width: 130px;
+	border-radius: 50%;
+	margin: 10px;
+}
+.teamplayers{
+	display: flex;
+}
+.teamplayer{
+	flex: 0.5;
+	display: flex;
+	justify-content: space-around;
+	width: 250px;
+	margin:50px 30px;
+}
+.teamplayer h1{
+	font-size: 25px;
+	margin: 10px;
+}
+.teamplayer p{
+	margin: 10px;
+}
+.last_link{
+	max-width: 100px;
+	margin: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: red;
+}
+
+/* FOOTER */
+
+.footer{
+	max-width: 950px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.brand{
+	list-style: none;
+	display: flex;
+	max-width: 500px; 
+	height: 100px;
+}
+.brand li{
+	margin: 10px;
+	font-size: 30px;
+	color: gray;
+	cursor: pointer;
+}
+.brand li a:hover{
+	transition: 0.3s;
+	color: violet;
+}
+.brand li a{
+	color:gray;
+}
+/* MEDIA */
+
+@media (max-width: 937px) {
+	.intro{
+		margin: 70px auto;
+	}
+	.menu{
+		margin: 0px auto;
+		max-width: 600px;
+	}
+	.hobby_container, .portfolio, .teamplayers{
+		flex-direction: column;
+	}
+	.teamplayer{
+		width: 280px;
+		padding-bottom: 100px;
+		flex-direction: column;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.teamplayer img{margin:0 auto;}
+	.our_team img{
+		height: 300px;
+		width: 300px;
+		border-radius: 50%;
+		margin: 10px;
+	}
+	.hobby{
+		margin: 10px;
+	}
+	.intro h1{
+		letter-spacing: 0;
+	}
+	.portfolio img{
+	width:85%;
+	height: auto;
+	margin: 30px;
+}
+}
+@media (max-width: 420px) {
+	.menu_item{
+		margin: 5px;
+	}
+	.teamplayer{
+		padding-bottom: 100px;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+}
