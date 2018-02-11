@@ -129,7 +129,6 @@ span{color: red;}
 
 .our_team{
 	border-bottom: 1px solid grey;
-	opacity: 0;
 	transition: 1s;
 }
 .our_team_intro{
