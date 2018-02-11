@@ -4,7 +4,7 @@ $(document).ready(function(){
 		console.log(st);
 		if(st > 400){ $('.about_me').css({'opacity':1});}
 		if(st > 550){ $('.hobby_container').css({'opacity':1});}
-		if(st > 1000){ $('.portfolio').css({'opacity':1});}
+		if(st > 970){ $('.portfolio').css({'opacity':1});}
 	});
 	$('.menu_item:nth-child(1)').click(function(){
 			$(window).scrollTop(700);
@@ -16,4 +16,3 @@ $(document).ready(function(){
 			$(window).scrollTop(1626);
 		});
 });
-alert('hello');
