@@ -5,7 +5,6 @@ $(document).ready(function(){
 		if(st > 400){ $('.about_me').css({'opacity':1});}
 		if(st > 550){ $('.hobby_container').css({'opacity':1});}
 		if(st > 1000){ $('.portfolio').css({'opacity':1});}
-		if(st > 1400){ $('.our_team').css({'opacity':1});}
 	});
 	$('.menu_item:nth-child(1)').click(function(){
 			$(window).scrollTop(700);
