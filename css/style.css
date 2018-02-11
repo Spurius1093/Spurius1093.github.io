@@ -220,8 +220,8 @@ span{color: red;}
 	}
 	.teamplayer img{margin:0 auto;}
 	.our_team img{
-		height: 300px;
-		width: 300px;
+		height: 260px;
+		width: 260px;
 		border-radius: 50%;
 		margin: 10px;
 	}
@@ -242,8 +242,7 @@ span{color: red;}
 		margin: 5px;
 	}
 	.teamplayer{
-		padding-bottom: 100px;
 		flex-direction: column;
-		margin: 0 auto;
+		margin: 30px auto;
 	}
 }
