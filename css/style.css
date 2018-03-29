@@ -102,19 +102,19 @@
 
 .services_menu_item:hover .open{
 	margin: 50px auto 20px;
-	transition: 0.3s;
+	transition: 0.8s;
 }
 .services_menu_item:hover .price{
 	display: block;
-	transition: 0.3s;
+	transition: 0.8s;
 }
 .services_menu_item:hover .description{
 	display: block;
-	transition: 0.3s;
+	transition: 0.8s;
 }
 .services_menu_item:hover .details{
 	display: block;
-	transition: 0.3s;
+	transition: 0.8s;
 }
 .services_menu{
 	display: flex;
@@ -126,10 +126,11 @@
 	text-align: center;
 }
 .services_menu_item:hover{
-	width: 27%;
-	height: 510px;
+	width: 28%;
+	height: 520px;
 	transition: 0.7s;
-	margin-top: -15px;
+	margin-top: -17px;
+	padding: 0 10px;
 }
 .services_menu_item:nth-child(1){
 	background-image: url(../img/1.png);
