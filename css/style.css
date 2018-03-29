@@ -100,14 +100,22 @@
 .price{font-size: 18pt;display: none;}
 .description{font-size: 14pt;display: none;margin: 20px auto;}
 
-.services_menu_item:hover .open{margin: 50px auto 20px;}
+.services_menu_item:hover .open{
+	margin: 50px auto 20px;
+	transition: 0.3s;
+}
 .services_menu_item:hover .price{
 	display: block;
+	transition: 0.3s;
 }
 .services_menu_item:hover .description{
 	display: block;
+	transition: 0.3s;
 }
-.services_menu_item:hover .details{display: block;}
+.services_menu_item:hover .details{
+	display: block;
+	transition: 0.3s;
+}
 .services_menu{
 	display: flex;
 }
@@ -120,7 +128,7 @@
 .services_menu_item:hover{
 	width: 27%;
 	height: 510px;
-	transition: 0.5s;
+	transition: 0.7s;
 	margin-top: -15px;
 }
 .services_menu_item:nth-child(1){
@@ -247,7 +255,54 @@
 	display: flex;
 	margin-top: 50px;
 }
+.msg{
+	font-size: 14pt;
+	font-weight: 100;
+	color: gray;
+	margin-bottom: 25px;
+}
 .feedbacks_item{
 	text-align: center;
 	margin: 0 30px;
+}
+.feedbacks_item img{
+	margin: 25px 0;
+}
+.author{font-size: 15pt;}
+
+/*arrow*/
+
+.arrows{
+	display: flex;
+	margin: 50px auto 70px;
+	width: 150px;
+	justify-content: space-around;
+}
+.arrow_left,.arrow_right{
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	border: 2px solid #fe5621;
+}
+.arrow_left div{
+	height: 15px;
+	width: 15px;
+	border-bottom: 3px solid #fe5621;
+	border-left: 3px solid #fe5621;
+	transform: rotate(45deg);
+	margin: 17px 0px 0 20px;
+}
+.arrow_right div{
+	height: 15px;
+	width: 15px;
+	border-bottom: 3px solid #fe5621;
+	border-left: 3px solid #fe5621;
+	transform: rotate(225deg);
+	margin: 17px 0px 0 17px;
+}
+
+/*subscribe*/
+
+#subscribe{
+	height: 435px;
 }
