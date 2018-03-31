@@ -188,6 +188,7 @@
 	max-width: 1400px;
 	background-image: url(../img/aboutUs.png);
 	background-size: cover;
+	padding-bottom: 30px;
 }
 .about_us_intro_head,.coaches_intro,.feedback_head{
 	width: 320px;
@@ -255,7 +256,7 @@ video{
 .coaches_menu{
 	display: flex;
 	text-align: center;
-	margin-top: 50px;
+	margin:50px auto;
 }
 .coach_name{font-size: 24pt;}
 .position{font-size: 15pt;margin-bottom:15px;}
@@ -339,14 +340,13 @@ video{
 #subscribe{
 	background-image: url(../img/subscribe1.png);
 	background-size: cover;
-	margin-top: 80px;
+	padding:150px 0;
 }
 .subscribe_head{
 	font-size: 38pt;
 	color: white;
 	margin: 0 auto;
 	max-width: 610px;
-	padding: 130px 0 20px 0;
 	text-align: center;
 }
 .subscribe_text{
@@ -468,8 +468,7 @@ video{
 /* Medium devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
 	video{
-		width: 700px;
-		padding-bottom: 50px;
+		max-width:600px ;
 	}
 	.social{
 		display: none;
